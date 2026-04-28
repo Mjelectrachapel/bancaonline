@@ -10,4 +10,6 @@ while True:
   if opcion == 1:
     ingresar = float(input("Indica la cantidad a ingresar: "))
     saldo += ingresar
-    print(f"Has ingresado tu dinero")
+    print(f"Has ingresado tu dinero"
+  elif opcion == 3:
+    print(f"Su saldo es: {saldo}\n");
