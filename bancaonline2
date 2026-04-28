@@ -1,0 +1,7 @@
+if opcion == 2:
+    retiro = int(input("Indica la cantidad a retirar: "))
+    if  saldo >= retiro:
+      saldo -= retiro
+      print(f"Aquí tienes tu dinero, tu saldo es {saldo} ")
+    else:
+      print("No tienes un duro")
