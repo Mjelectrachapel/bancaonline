@@ -6,3 +6,12 @@ while True:
             4. Reiniciar cuenta
             5. Salir """)
   opcion = int(input("Introduce una opción:"))
+
+  if opcion == 4 and saldo == 0:
+    print ("Su saldo ya es cero. No es neceario reiniciar la cuenta")
+  elif opcion == 4 and saldo != 0:
+    saldo = 0
+    print ("Se ha reiniciado su cuenta. Su saldo actual es 0€")
+      
+
+
